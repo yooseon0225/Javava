@@ -1,0 +1,16 @@
+package com.github.yooseon0225.hiBot;
+
+import org.javacord.api.DiscordApi;
+import org.javacord.api.DiscordApiBuilder;
+
+public class Main {
+	public static void main(String[] args) {
+		String token = "Nzg4OTQ5ODA2NjA1MjcxMDgw.X9q8ww.Fsk9MU9o6C_vWzmuWQ_YxjCJ72o";
+		
+		DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
+		api.addMessageCreateListener(event -> {
+			if(event.getMessageContent().equalsIgnoreCase("서유선 공주"))
+				event.getChannel().sendMessage("유선이는 진짜 공주 !!!야");
+		});
+	}
+}
