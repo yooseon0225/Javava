@@ -5,4 +5,10 @@
 <fullyQualifiedTypeName name="omok_02.RunGame.Replay"/>
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 <fullyQualifiedTypeName name="omok_02.RunGame.reAction"/>
+<fullyQualifiedTypeName name="org.javacord.api.entity.message.embed.EmbedBuilder"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.javacord.api.entity.Icon"/>
+<fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
+<fullyQualifiedTypeName name="org.jsoup.nodes.Document"/>
 </qualifiedTypeNameHistroy>

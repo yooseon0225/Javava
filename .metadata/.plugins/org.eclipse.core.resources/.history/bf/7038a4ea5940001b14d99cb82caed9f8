@@ -45,7 +45,7 @@ class BringMeal{
 
 public class Main {
 	public static void main(String[] args) {
-		String token = "";
+		String token = "Nzg4OTQ5ODA2NjA1MjcxMDgw.X9q8ww.Fsk9MU9o6C_vWzmuWQ_YxjCJ72o";
 		BringMeal test = new BringMeal();
 		
 		DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
